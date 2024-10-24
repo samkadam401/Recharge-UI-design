@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(21, 21, 22);
+}
+
+
+.text-sec{
+    height: 350px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-sec button{
+
+
+    height: 50px;
+    width: 130px;
+    background-color: rgb(68, 68, 62);
+    border: 2px solid rgb(241, 198, 99);
+    border-radius: 30px;
+
+    color: rgb(240, 240, 116);
+    margin-bottom: 20px;
+
+}
+.text-sec button:hover{
+   
+    background-color: rgb(233, 233, 243);
+    color: rgb(17, 16, 16);
+   
+}
+.text-sec h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+margin-bottom: 20px;
+}
+.text-sec h3{
+    color: rgb(198, 198, 198);
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.box-sec{
+
+    height: 460px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+
+}
+.box1{
+    height: 370px;
+    width: 320px;
+    /* background-color: blue; */
+    /* border: 2px solid black; */
+    box-shadow: 3px 3px 3px 3px   rgb(243, 243, 171);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.text{
+
+    height: 130px;
+    width: 90%;
+    /* background-color: aquamarine; */
+}
+.text button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(70, 70, 74);
+    color: white;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+.text button:hover{
+   
+    background-color: rgb(233, 233, 243);
+    color: rgb(17, 16, 16);
+   
+}
+.text h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+.text h4{
+    color: rgb(167, 169, 171);
+
+}
+.text hr{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.list{
+    height: 220px;
+    width: 90%;
+    /* background-color: blue; */
+}
+.list ul li{
+
+    color: white;
+    list-style: none;
+    margin-top: 20px;
+
+}
+.list button{
+    height: 40px;
+    width: 230px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: rgb(21, 21, 21);
+    background-color: rgb(103, 102, 102);
+    border: 1px solid white;
+}
+.list button:hover{
+   
+    background-color: rgb(233, 233, 243);
+    color: rgb(17, 16, 16);
+   
+}
+.box2{
+    height: 370px;
+    width: 320px;
+    /* background-color: blue; */
+    /* border: 2px solid black; */
+    box-shadow: 4px 4px 4px 4px  rgb(220, 237, 38);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text2{
+
+    height: 130px;
+    width: 90%;
+    /* background-color: aquamarine; */
+}
+.list2{
+    height: 220px;
+    width: 90%;
+    /* background-color: blue; */
+}
+.text2 button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(123, 123, 118);
+    color: rgb(238, 227, 20);
+    border: 2px solid rgb(230, 217, 32);
+    margin-top: 10px;
+}
+.text2 button:hover{
+   
+    background-color: rgb(233, 233, 243);
+    color: rgb(17, 16, 16);
+   
+}
+.text2 h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    
+}
+.text2 h1 em{
+    color: white;
+    font-size: 10px;
+}
+.text2 h4{
+    color: rgb(167, 169, 171);
+
+}
+.text2 hr{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.list2{
+    height: 220px;
+    width: 90%;
+    /* background-color: blue; */
+}
+.list2 ul li{
+
+    color: white;
+    list-style: none;
+    margin-top: 20px;
+
+}
+.list2 ul li i{
+    color: rgb(231, 231, 55);
+}
+.list2 button{
+    height: 40px;
+    width: 230px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: rgb(21, 21, 21);
+    background-color: rgb(247, 234, 99);
+    border: 2px solid rgb(230, 206, 54);
+    font-size: 20px;
+}
+.list2 button:hover{
+   
+    background-color: rgb(233, 233, 243);
+    color: rgb(17, 16, 16);
+   
+}
+
+.box3{
+    height: 370px;
+    width: 320px;
+    /* background-color: blue; */
+    /* border: 2px solid black; */
+    box-shadow: 3px 3px 3px 3px  rgb(240, 120, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text3{
+
+    height: 130px;
+    width: 90%;
+    /* background-color: aquamarine; */
+}
+.list3{
+    height: 220px;
+    width: 90%;
+    /* background-color: blue; */
+}
+.text3 button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(70, 70, 74);
+    color: white;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+.text3 button:hover{
+   
+    background-color: rgb(233, 233, 243);
+    color: rgb(17, 16, 16);
+   
+}
+.text3 h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+.text3 h4{
+    color: rgb(167, 169, 171);
+
+}
+.text3 hr{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text3 h1 em{
+    color: white;
+    font-size: 10px;
+}
+
+
+.list3{
+    height: 220px;
+    width: 90%;
+    /* background-color: blue; */
+}
+.list3 ul li{
+
+    color: white;
+    list-style: none;
+    margin-top: 20px;
+
+}
+.list3 button{
+    height: 40px;
+    width: 230px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: rgb(21, 21, 21);
+    background-color: rgb(103, 102, 102);
+    border: 1px solid white;
+}
+.list3 button:hover{
+   
+    background-color: rgb(233, 233, 243);
+    color: rgb(17, 16, 16);
+   
+}
+
+
+@media (max-width:480px) {
+    *{
+        margin: 0;
+        pad: 0;
+        box-sizing: border-box;
+        
+    }
+    
+    .card{
+        height: 1500px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+    
+    
+    .text-sec{
+        height: auto;
+        width: 100%;
+        padding: 40px;
+        
+      
+    }
+    .text-sec button{
+    
+    
+        height: 50px;
+        width: 130px;
+      
+    
+    }
+    .text-sec h1{
+        font-size: 15px;
+       
+    }
+    .text-sec h3{
+        font-size: 10px;
+       
+    }
+    .box-sec{
+    
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        
+        /* margin-top: 80px; */
+      
+    
+    }
+   .box1{
+    width: 320px;
+    height: 370px;
+   }
+    
+
+    .box2{
+        height: 370px;
+        width: 320px;
+      
+    }
+    .text2{
+    
+        height: 130px;
+        width: 90%;
+        /* background-color: aquamarine; */
+    }
+    .list2{
+        height: 220px;
+        width: 90%;
+        /* background-color: blue; */
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+@media (max-width:768px) {
+
+    .box-sec{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: auto;
+        height: auto;
+    }
+    
+}
